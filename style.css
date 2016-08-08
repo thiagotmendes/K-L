@@ -1,0 +1,81 @@
+/*
+Theme Name: K&L
+Theme URI:
+Author:  4media Agencia de Comunicação - Devel:Thiago Mendes
+Author URI: http://4media.com.br/
+Description: Thema desenvolvido por Thiago Mendes junto a 4media
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: Bootstrap,HTML, CSS
+Text Domain: 4media agência digital
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+main {
+  min-height: 542px;
+}
+
+.titulo-interno{
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.menu-servicos li a{
+  background-color: #a42727;
+  color: #fff;
+  display: block;
+  padding: 10px 8px;
+  margin-bottom: 5px;
+  transition-duration: 0.3s;
+  border-left: #292929 solid 4px;
+  text-transform: uppercase;
+}
+
+.menu-servicos li a:hover{
+  background-color: #292929;
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.navbar-toggle{
+  margin-top: 30px;
+}
+
+.navbar-toggle .icon-bar{
+  background-color: #fff;
+}
+
+@media (max-width:640px) {
+  header{
+    background: #292929 !important;
+    border-bottom: #a42727;
+  }
+
+  .itens-top{
+    display: none !important;
+  }
+
+  .navbar-nav{
+    margin-top: 0px !important;
+  }
+
+  .navbar-nav {
+    margin: none !important;
+}
+
+  .nav{
+  }
+
+  .navbar-nav{
+    background: #292929;
+  }
+
+  .navbar-kel .navbar-nav > li{
+    border-left:0px !important
+  }
+
+}

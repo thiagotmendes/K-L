@@ -1,0 +1,291 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  background: url(../images/topo.png) center top;
+  min-height: 183px;
+  text-align: center;
+}
+
+.itens-top  {
+  color: #fff;
+  /*width: 78%;*/
+}
+
+.item-esquerda {
+  float: left;
+  display: block;
+  padding-left: 60px;
+  margin-top: 20px;
+}
+
+.itens-direita a {
+  display: block;
+  float: right;
+  margin-top: 20px;
+  padding-left: 20px;
+  color: #fff;
+}
+
+.itens-direita a:hover,
+.itens-direita a:active {
+  color: #a42727;
+  text-decoration: none;
+}
+
+.box-produto {
+  background: #fafafa;
+  padding: 0 10px 10px 10px;
+}
+
+.box-historia {
+  background: #fafafa;
+  padding: 0 10px 10px 10px;
+  text-align: center;
+  min-height: 368px;
+}
+
+.titulo-box {
+  margin-top: 0px;
+  color: #a42727;
+  font-weight: bold;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif" !important;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.produtos-home li a{
+  padding: 9px 4px 9px 9px;
+  margin-bottom: 10px;
+  display: block;
+  color: #4e4e4e;
+  font-size: 16px;
+  border-bottom: 2px dotted #ebebeb;
+}
+
+.produtos-home li a {
+  padding: 9px 4px 9px 9px;
+  margin-bottom: 10px;
+  display: block;
+  color: #4e4e4e;
+  font-size: 16px;
+  border-bottom: 2px dotted #ebebeb;
+}
+
+
+.menu-servicos li a:hover{
+  color: #a42727 !important;
+}
+
+/*.produtos-home a{
+  display:
+  color: #4e4e4e;
+  border-bottom: 3px dotted #ebebeb;
+  padding-bottom: 10px;
+  padding-top: 5px
+  font-size: 14px;
+  list-style: none;
+}
+
+.produtos-home:last-child {
+  color: #4e4e4e;
+  border-bottom: 3px dotted transparent;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 14px;
+  list-style: none;
+}*/
+
+.texto-historia {
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.btn-historia {
+  background: #a42727;
+  color: #fff;
+  border-radius: 0px !important;
+  margin-top: 35px;
+}
+
+.btn-historia:hover {
+  background: #fff;
+  color: #a42727 !important;
+  border: 1px solid #a42727 !important;
+  border-radius: 0px !important;
+  transition-duration: 1s;
+}
+
+.box-obras {
+  background: #292929;
+  padding: 20px 25px;
+}
+
+.inner{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.titulo-box-obra {
+  margin-top: 0px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif" !important;
+}
+
+.img-obra-home {
+  margin-top: 0px;
+}
+
+.titulo-obra-home {
+  background: #b00000;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.btn-obra {
+  float: right;
+  background: #482d26;
+  color: #fff;
+  border-radius: 0px !important;
+  border: 1px solid #fff !important;
+  text-transform: uppercase;
+}
+
+.btn-obra:hover {
+  float: right;
+  background: #482d26;
+  color: #ffcb05 !important;
+  border-radius: 0px !important;
+  border: 1px solid #fff !important;
+  text-transform: uppercase;
+}
+
+.obras-todas {
+  color: #fff;
+  width: 20%;
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin-top: 6px;
+  display: block;
+  float: left;
+}
+
+.obras-todas:hover {
+  color: #a42727;
+  text-decoration: none;
+}
+
+/*****************MENU*************************/
+
+.navbar-brand {
+  margin-left: 18px !important;
+  margin-top: 5px;
+  height: auto !important;
+}
+
+.nav {
+  /*margin-left: 60px !important;*/
+}
+
+.navbar-nav {
+  background: #a42727;
+  color: #fff;
+  margin-top: 15px !important;
+  text-transform: uppercase;
+}
+
+.navbar-kel .navbar-nav > li{
+  border-left: #64443c solid 1px;
+}
+
+.navbar-kel .navbar-nav > li > a {
+  color: #fff;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+
+.navbar-kel .navbar-nav > li > a:hover,
+.navbar-kel .navbar-nav > li > a:focus {
+  background: #fff;
+  color: #a42727;
+}
+
+/**********************************************/
+
+/*****************FOOTER**********************/
+
+footer {
+  background: #482d26;
+  color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.endereco {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.email {
+  margin-top: 30px;
+}
+
+.contatos {
+  margin-top: 30px;
+}
+
+.icon-fone {
+  font-size: 20px !important;
+  padding-right: 5px;
+}
+
+.icon-mail {
+  font-size: 20px !important;
+  padding-right: 5px;
+}
+
+.fax {
+  margin-left: 20px;
+}
+
+.end {
+  margin-left: 18px;
+}
+
+.icon-map {
+  font-size: 20px !important;
+  padding-right: 5px;
+}
+
+.social {
+  margin-left: 20px;
+}
+
+.sociais-footer {
+  font-size: 35px;
+  padding-left: 5px;
+  color: #fff;
+}
+
+.sociais-footer:hover {
+  font-size: 35px;
+  padding-left: 5px;
+  color: #a42727;
+  transition-duration: 1s;
+}
+
+/**********************************************/
